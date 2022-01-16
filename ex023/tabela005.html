@@ -10,7 +10,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table {
-            width: auto;
+            width: 500px;
             border-collapse: collapse;
         }
         caption {
@@ -22,12 +22,21 @@
             border: 1px solid black;
             padding: 7px;
         }
+        th {
+            text-align: center;
+        }
 
     </style>
 </head>
 <body>
     <h1>Exercício de Tabela</h1>
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
         <caption>Cadastro</caption>
         <thead>
             <tr>
@@ -70,9 +79,9 @@
             </tr>
             <tr>
                 <td>Otávio</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>M</td>
+                <td>22</td>
+                <td>Nutricionista</td>
             </tr>
         </tbody>
     </table>
