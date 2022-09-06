@@ -1,4 +1,6 @@
-@charset "UTF-8"; /* ARQUIVO PARA IMPRESSORAS */
+@charset "UTF-8"; 
+
+/* ARQUIVO PARA IMPRESSORAS */
 
 * {
     margin: 10px;
@@ -13,4 +15,8 @@ html {
 
 menu {
     display: none;
+}
+
+article {
+    width: 100%;
 }
