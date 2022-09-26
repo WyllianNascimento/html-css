@@ -11,10 +11,10 @@
 <body>
     <header>
         <h1>Meu Site</h1>
-        <span class="material-symbols-outlined">
+        <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">
             menu
-            </span>
-        <menu>
+        </span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">opção 1</a></li>
                 <li><a href="#">opção 2</a></li>
@@ -38,5 +38,15 @@
             </p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (itens.styke.display == 'block') {
+                itens.style.display = 'none'
+            
+            } else {
+                itens.style.display = 'block'
+        }
+    }
+    </script>
 </body>
 </html>
