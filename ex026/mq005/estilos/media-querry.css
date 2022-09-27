@@ -12,5 +12,15 @@ Grendes teças: acima de 1200px
  */
 
 @media screen and (min-width: 768px) {
-    
+    span#menu {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
 }
