@@ -11,4 +11,6 @@ Grendes teças: acima de 1200px
 -----------------------------
  */
 
-@media
+@media screen and (min-width: 768px) {
+    
+}
