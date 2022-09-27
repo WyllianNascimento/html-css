@@ -23,4 +23,15 @@ Grendes teças: acima de 1200px
     menu > ul > li {
         display: inline-block;
     }
+
+    menu > ul > li > a {
+        border-radius: 50px;
+        margin: 5px;
+    }
+
+    menu > ul > li > a:hover {
+        color: black;
+        background-color: white;
+        font-weight: bold;
+    }
 }
